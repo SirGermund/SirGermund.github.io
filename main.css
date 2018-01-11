@@ -1,0 +1,123 @@
+html {
+	position: relative;
+    min-height: 100%;
+}
+body {
+	background-image: url(img/bgpattern.png);
+	margin: 0 0 20px;
+}
+@font-face {
+	font-family: lobster;
+	src: url(fonts/Lobster-Regular.ttf);
+}
+@font-face {
+	font-family: bitter;
+	src: url(fonts/Bitter-Regular.otf);
+}
+@font-face {
+	font-family: bemount;
+	src: url(fonts/Bemount.otf);
+}
+@font-face {
+	font-family: gabriela;
+	src: url(fonts/Gabriela-Regular.ttf);
+}
+nav {
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 60px;
+	margin-bottom: 100px;
+	width: 1000px;
+}
+.menuul{
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+	
+}
+.menuli{
+	display: inline-block;
+	margin-right: -5px;
+}
+a {
+	text-decoration: none;
+	font-family: bemount, serif;
+	font-size: 35px;
+	color: white;
+	padding: 20px 40px;
+	background-color: #595447;
+	transition-duration: 1s;
+}
+a:hover {
+	background-color: #A69B84;
+}
+h1 {
+	font-family:  lobster, sans-serif;
+	font-size: 60px;
+	text-align: center;
+	margin: 0 auto;
+	width: 1000px;
+}
+#h2m {
+	margin-bottom: 100px;
+}
+.text {
+	font-family: gabriela, serif;
+	text-align: left;
+}
+.text2 {
+	font-family: bitter, serif;
+	text-align: left;
+}
+div {
+	margin: 0 auto;
+	width: 1000px;
+	text-align: center;
+	margin-bottom: 200px;
+}
+img {
+	float: left;
+	margin-right: 40px;
+}
+table {
+	background-image: url(img/tablebg.png);
+    border: 2px solid black;
+    margin-bottom: 0.5em;
+    padding: .4em;
+    font-size: 20px;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 2em;
+	border-collapse: collapse;
+	margin-bottom: 60px;
+	font-family: bitter, serif;
+}
+caption {
+	background-image: url(img/tablebg.png);
+	font-size: 20px;
+	font-weight: bold;
+	border: 2px solid black;
+	border-bottom: 0px solid black;
+}
+th {
+	border: 1px solid black;
+}
+td {
+	border: 1px solid black;
+	text-align: left;
+	padding-left: 10px;
+}
+p {
+	font-family: gabriela, serif;
+	font-size: 20px;
+	text-align: left;
+	text-indent: 40px;
+}
+.formula {
+	width: 20%;
+	height: 20%;
+}
+.li2 {
+	list-style: none;
+}
