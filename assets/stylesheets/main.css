@@ -1,3 +1,15 @@
 #uganda-body {
 	background-image: url(../img/bgpattern.png);
 }
+a {
+	text-decoration: none;
+	font-family: bemount, serif;
+	font-size: 35px;
+	color: yellow;
+	padding: 160px 140px;
+	background-color: black;
+	transition-duration: 1s;
+}
+a:hover {
+	background-image: url(../img/menu_button.jpg);
+}
